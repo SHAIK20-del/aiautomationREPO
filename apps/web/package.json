@@ -1,0 +1,41 @@
+{
+  "name": "@atelier/web",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "^0.183.0",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/drei": "10.7.9",
+    "gsap": "3.15.0",
+    "lenis": "1.3.27",
+    "motion": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "zod": "^4.0.0",
+    "react-hook-form": "^7.54.0",
+    "@hookform/resolvers": "^5.0.0",
+    "@atelier/database": "*",
+    "@atelier/shared": "*",
+    "server-only": "^0.0.1",
+    "drizzle-orm": "0.45.4",
+    "@fontsource/instrument-serif": "^5.2.0",
+    "@fontsource/manrope": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.183.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroEyebrow": {
+      "type": "string"
+    },
+    "heroHeading": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "primaryCtaLabel": {
+      "type": "string"
+    },
+    "primaryCtaDestination": {
+      "type": "string"
+    },
+    "secondaryCtaLabel": {
+      "type": "string"
+    },
+    "secondaryCtaDestination": {
+      "type": "string"
+    },
+    "expertiseHeading": {
+      "type": "string"
+    },
+    "workHeading": {
+      "type": "string"
+    },
+    "finalCtaText": {
+      "type": "string"
+    },
+    "featuredProjects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

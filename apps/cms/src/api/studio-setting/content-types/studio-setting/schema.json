@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "studio_settings",
+  "info": {
+    "singularName": "studio-setting",
+    "pluralName": "studio-settings",
+    "displayName": "Studio Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "studioName": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "blocks"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "brandDescription": {
+      "type": "text"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "otherSocialUrls": {
+      "type": "json"
+    },
+    "footerContent": {
+      "type": "text"
+    }
+  }
+}

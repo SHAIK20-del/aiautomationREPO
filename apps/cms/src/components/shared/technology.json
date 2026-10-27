@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_technologies",
+  "info": {
+    "displayName": "Technology"
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

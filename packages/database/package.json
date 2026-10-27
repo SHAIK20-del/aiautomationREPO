@@ -1,0 +1,23 @@
+{
+  "name": "@atelier/database",
+  "private": true,
+  "version": "1.0.0",
+  "exports": {
+    ".": "./src/client.ts",
+    "./schema": "./src/schema.ts",
+    "./queries": "./src/queries.ts"
+  },
+  "scripts": {
+    "generate": "node ../../tools/migrations/node_modules/drizzle-kit/bin.cjs generate",
+    "migrate": "node --import tsx src/migrate.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.4",
+    "@neondatabase/serverless": "^1.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0",
+    "tsx": "^4.20.0"
+  }
+}
